@@ -1,6 +1,5 @@
 pandas_datareader
 datetime
-os
 dash
 dash_core_components
 dash_html_components
