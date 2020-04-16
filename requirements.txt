@@ -2,6 +2,5 @@ pandas_datareader
 datetime
 os
 dash
-dash.dependencies import Input, Output
 dash_core_components as dcc
 dash_html_components as html
