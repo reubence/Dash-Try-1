@@ -13,7 +13,6 @@ df1 = web.DataReader('AAPL', 'yahoo', start, end)
 
 app = dash.Dash()
 
-server = app.server
 
 app.layout = html.Div(children = [
     html.Div('''
