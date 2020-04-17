@@ -1,5 +1,9 @@
-pandas_datareader
-datetime
-dash
-dash_core_components
-dash_html_components
+dash==0.17.7 
+dash-renderer==0.7.4
+dash-html-components==0.7.0  
+dash-core-components==0.12.0
+plotly==2.0.11
+time
+random
+collections
+gunicorn==19.7.1
