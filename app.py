@@ -108,5 +108,4 @@ def update_graph(data_names, n):
     return graphs
 
 if __name__ == '__main__':
-    server.run(debug = True)
-    #server.run("0.0.0.0" , port = 8080)
+    app.run_server(debug=True)
