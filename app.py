@@ -5,11 +5,9 @@ from dash.dependencies import Input, Output
 from flask import Flask
 import os
 
-server = Flask(__name__)
-server.secret_key = os.environ.get('secret_key', 'secret')
 app = dash.Dash(name = __name__, server = server)
 app.config.supress_callback_exceptions = True
-
+server = app.server
 max_length = 50
 times = deque(maxlen=max_length)
 oil_temps = deque(maxlen=max_length)
